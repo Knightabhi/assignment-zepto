@@ -1,0 +1,36 @@
+@import "../../color.css";
+
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  min-width: 300px;
+  padding: 5px 10px;
+  overflow-y: visible;
+  border-bottom: 2px solid #729cb7;
+}
+
+.tagsContainer {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+  min-width: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  gap: 5px;
+}
+
+.customInput {
+  width: 100px;
+  font-size: small;
+  color: var(--darkGrey);
+  border: none;
+  outline: none;
+  transition: box-shadow 0.3s; /* Add a smooth transition for the box-shadow property */
+}
+
+.inputContainer {
+  position: relative;
+  height: fit-content;
+  overflow-y: visible;
+}

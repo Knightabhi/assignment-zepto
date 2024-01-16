@@ -1,0 +1,23 @@
+@import "../../color.css";
+
+.dropdown {
+  background-color: var(--background);
+  overflow-y: auto;
+  max-height: 220px;
+  scrollbar-width: none; /* For Firefox */
+  box-shadow: -2px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.dropdown::-webkit-scrollbar {
+  display: none;
+}
+
+.dropdown::-webkit-scrollbar-track {
+  display: none;
+}
+
+.optionContainer {
+  padding: 8px;
+  cursor: pointer;
+}

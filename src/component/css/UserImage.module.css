@@ -1,0 +1,13 @@
+.userImageSmall {
+  border-radius: 25px;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+
+.userImageLarge {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}

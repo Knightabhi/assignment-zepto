@@ -1,0 +1,19 @@
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  width: fit-content;
+  padding: 4px 5px 4px 15px;
+  border-radius: 15px;
+}
+
+.tagName {
+  flex: 2;
+  white-space: nowrap;
+}
+
+.removeIcon {
+  cursor: pointer;
+}

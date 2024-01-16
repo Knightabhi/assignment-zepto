@@ -1,0 +1,44 @@
+@import "../../color.css";
+
+.dropdownOption {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 8px;
+  gap: 10px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for focus effects */
+
+  &:hover {
+    background-color: var(--activeDropdownColor);
+  }
+
+  &:focus {
+    outline: none;
+    background-color: var(--activeDropdownColor);
+    color: black;
+  }
+
+  .name,
+  .nameLight {
+    flex: 1;
+    font-size: 12px;
+    white-space: nowrap;
+    padding-top: 8px;
+  }
+
+  .name {
+    color: black;
+  }
+
+  .nameLight {
+    color: var(--lightGrey); /* Light grey color */
+  }
+
+  .email {
+    font-size: 10px;
+    color: var(--lightGrey);
+    padding-top: 8px;
+  }
+}

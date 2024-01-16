@@ -1,0 +1,22 @@
+@import "../../color.css";
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.containerHighlight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0.5px solid var(--darkGrey);
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.image {
+  max-width: 100px;
+  height: auto;
+  margin-right: -12px;
+  z-index: 10;
+}
